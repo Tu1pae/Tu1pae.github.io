@@ -8,13 +8,13 @@
     <meta name="robots" content="all">
     <meta property="og:title" content="Это моя первая страница...">
     <title>Андрей Браун - Веб разработчик</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
         <nav>
-            <div class="logo">
-                Андрей Браун
-            </div>
+            <div class="logo">Андрей Браун</div>
             <div class="menu">
                 <ul>
                     <li>Обо мне</li>
@@ -28,28 +28,26 @@
         </nav>
     </header>
     <div class="part1">
-        <h1>
-            Привет<br>Я Андрей Браун
-        </h1>
-        <h4>
-            Фулл стек веб-разработчик
-        </h4>
-        <input type="submit" value="Обо мне">
-        <input type="submit" value="Мои работы">
+        <div class="title_container">
+            <h1>Привет<br>Я Андрей Браун</h1>
+            <h4>Фулл стек веб-разработчик</h4>
+            <input type="submit" value="Обо мне">
+            <input type="submit" value="Мои работы">
+        </div>
     </div>
     <div class="part2">
             <h2>Обо мне</h2>
-            <img src="img/stick.png" alt="#">
+            <hr>
         <div>
             <img src="img/fotka.gif" alt="моё фото">
             <p>
                <small>
-                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi ea illum aliquam dolor! Aut harum eius, cupiditate animi quod dignissimos!
+                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt doloremque vel itaque possimus, voluptate culpa quasi, quaerat minus in architecto laborum temporibus modi molestias saepe cum, placeat doloribus assumenda dolorum.
                 </small>
             </p>
             <p>
                 <small>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi ea illum aliquam dolor! Aut harum eius, cupiditate animi quod dignissimos!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod labore, laborum repellat itaque deserunt neque quis alias eaque sequi mollitia perferendis nam aspernatur ipsam ratione maiores explicabo quibusdam dicta quos.
                 </small>
             </p>
             <button>
@@ -60,40 +58,42 @@
     </div>
     <div class="part3">
         <h2>Что я умею</h2>
-        <img src="img/stick.png" alt="#">
-        <div>
-            <img src="img/pc.gif" alt="#">
-            <h3>Веб-дизайн</h3>
-            <span>
-                Lorem ipsum dolor sit amet placerat<br>facilisis felis mi in tempus eleifend<br>pellentesque natoque etiam.
-            </span>
-        </div>
-        <div>
-            <img src="img/sign.gif" alt="#">
-            <h3>Разработка</h3>
-            <span>
-                Lorem ipsum dolor sit amet placerat<br>facilisis mi in tempus eleifend<br>pellentesque.
-            </span>
-        </div>
-        <div>
-            <img src="img/rocket.gif" alt="#">
-            <h3>СЕО-Оптимизация</h3>
-            <span>
-                Lorem ipsum dolor sit amet placerat<br>facilisis felis mi in tempus eleifend<br>pellentesque natoque etiam.
-            </span>
-        </div>
-        <div>
-            <img src="img/horn.gif" alt="">
-            <h3>Маркетинг</h3>
-            <span>
-                Lorem ipsum dolor sit amet placerat<br>facilisis felis mi in tempus eleifend<br>pellentesque natoque.
-            </span>
+        <hr>
+        <div class="skills">
+            <div>
+                <img src="img/pc.gif" alt="#">
+                <h3>Веб-дизайн</h3>
+                <span>
+                    Lorem ipsum dolor sit amet placerat<br>facilisis felis mi in tempus eleifend<br>pellentesque natoque etiam.
+                </span>
+            </div>
+            <div>
+                <img src="img/sign.gif" alt="#">
+                <h3>Разработка</h3>
+                <span>
+                    Lorem ipsum dolor sit amet placerat<br>facilisis mi in tempus eleifend<br>pellentesque.
+                </span>
+            </div>
+            <div>
+                <img src="img/rocket.gif" alt="#">
+                <h3>СЕО-Оптимизация</h3>
+                <span>
+                    Lorem ipsum dolor sit amet placerat<br>facilisis felis mi in tempus eleifend<br>pellentesque natoque etiam.
+                </span>
+            </div>
+            <div>
+                <img src="img/horn.gif" alt="">
+                <h3>Маркетинг</h3>
+                <span>
+                    Lorem ipsum dolor sit amet placerat<br>facilisis felis mi in tempus eleifend<br>pellentesque natoque.
+                </span>
+            </div>
         </div>
     </div>
     <div class="part4">
         <h2>Кейсы</h2>
-        <img src="img/stick.png" alt="#">
-        <div>
+        <hr>
+        
             <p>
                 <small>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed Dapibus leo nec ornare diamcoccodo nibh ante facilisis.
@@ -114,7 +114,7 @@
                 </p>
             </div>
             <input type="submit" value="VISIT LIVE SITE">
-        </div>
+        
     </div>
     <div class="part5">
         <h1>Расчёт стоимости</h1>
@@ -132,32 +132,40 @@
                 <option value="Opt1">Выберите пункт</option>
             </select>
         </form>
-        <img src="img/stick2.png.gif" alt="#">
+        <img src="img/stick.gif" alt="#">
         <h4>Сроки</h4>
         0
         <h4>Стоимость</h4>
         0
-    </div>
+        </div>
     <div class="part6">
-        <h2>НЕМНОГО СТАТИСТИКИ</h2>
-        <img src="img/stick.png" alt="#">
-        <div>
-            <img src="img/smile.gif" alt="#">
-            <h4><b>120</b><br>счастливых клиентов</h4>
-            <img src="img/sign2.gif" alt="#">
-            <h4><b>4.600</b><br>часов работы</h4>
-            <img src="img/check.gif" alt="#">
-            <h4><b>340</b><br>проектов завершено</h4>
-            <img src="img/cup.gif" alt="#">
-            <h4><b>23</b><br>наград получено</h4>
+       <h2>НЕМНОГО СТАТИСТИКИ</h2>
+       <hr>
+       <div class="stats">
+            <div>
+               <img src="img/smile.gif" alt="#">
+               <h4>120</h4><span>счастливых клиентов</span>
+            </div>
+            <div>
+                <img src="img/sign2.gif" alt="#">
+                <h4>4.600</h4><span>часов работы</span>
+            </div>
+            <div>
+                <img src="img/check.gif" alt="#">
+                <h4>340</h4><span>проектов завершено</span>
+            </div>
+            <div>
+                <img src="img/cup.gif" alt="#">
+                <h4>23</h4><span>наград получено</span>
+            </div>
         </div>
     </div>
     <div class="part7">
         <h2>ОТЗЫВЫ</h2>
-        <img src="img/stick.png" alt="#">
+        <hr>
         <img src="img/fotka2.gif" alt="#">
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante<br>facilisis bibendum dolor feugiat at duis sed dapidus leo nec ornare diam.
+        <p class="text_p7">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at duis sed dapidus leo nec ornare diam.
         </p>
         <p><b>Михаил,</b> Ген директор ПАО “Газпром”.</p>
         <input type="radio" name="Text_input1" value="1">
@@ -166,23 +174,31 @@
     </div>
     <div class="part8">
         <h2>МОИ КОНТАКТЫ</h2>
-        <img src="img/stick.png" alt="#">
+        <hr>
         <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed dapibus leo nec ornare diamcoccodo 
         </p>
-        <img src="img/geo.gif" alt="#">
-        <p>Санкт-Петербург<br>Невский проспект 11</p>
-        <img src="img/mail.gif" alt="">
-        <p>info@companyname.com</p>
-        <img src="img/phone.gif" alt="">
-        <p>+7 999 999-99-99</p>
+        <div class="contacts">
+            <div>
+                <img src="img/geo.gif" alt="#">
+                <p>Санкт-Петербург<br>Невский проспект 11</p>
+            </div>
+            <div>
+                <img src="img/mail.gif" alt="">
+                <p>info@companyname.com</p>
+            </div>
+            <div>
+                <img src="img/phone.gif" alt="">
+                <p>+7 999 999-99-99</p>
+            </div>
+        </div>   
         <h3>ОСТАВЬТЕ МНЕ СООБЩЕНИЕ</h3>
         <form action="">
             <input type="text" name="name" value="" placeholder="Имя">
             <input type="mail" name="mail" value="" placeholder="Email">
             <textarea placeholder="Сообщение" cols="30" rows="10"></textarea>
             <input type="submit" value="отправить">
-            <div>
+            <div class="SNS">
                 <img src="img/fb.png" alt="#">
                 <img src="img/tv.gif" alt="#">
                 <img src="img/bbb.gif" alt="#">
