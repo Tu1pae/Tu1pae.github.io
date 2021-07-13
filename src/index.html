@@ -99,25 +99,27 @@
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed Dapibus leo nec ornare diamcoccodo nibh ante facilisis.
                 </small>
             </p>
-            <img src="img/part4.gif" alt="#">
+            
+            <div><img src="img/part4.gif" alt="#"></div>
+            <div class="width_p4">
             <div class="left">
                 <p>
                     <b>CLIENT:</b><br>какая-то компания
                 </p>
                 <p>
                     <b>WEBSITE:</b><br>https://www.somedomain.com
-                </p>  
+                </p>
+                <input type="submit" value="Перейти на сайт">
             </div>
             <div>
                 <p>
                     <b>Название проекта</b><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit., sed do eiusmod tempor incididunt ut labore et dolore magna<br>aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
                 </p>
             </div>
-            <input type="submit" value="VISIT LIVE SITE">
-        
+            </div>
     </div>
     <div class="part5">
-        <h1>Расчёт стоимости</h1>
+        <h2 class="text_p5">Расчёт стоимости</h2>
         <form action="#">
             <p>ТИП САЙТА</p>
             <select name="list1" id="list">
@@ -133,11 +135,16 @@
             </select>
         </form>
         <img src="img/stick.gif" alt="#">
-        <h4>Сроки</h4>
-        0
-        <h4>Стоимость</h4>
-        0
+        <div class="text_p5_left1">
+            <h4>Сроки</h4>
+            <p>0</p>
         </div>
+        <br>
+        <div class="text_p5_left2">
+            <h4>Стоимость</h4>
+            <p>0</p>
+        </div>
+    </div>
     <div class="part6">
        <h2>НЕМНОГО СТАТИСТИКИ</h2>
        <hr>
@@ -194,10 +201,12 @@
         </div>   
         <h3>ОСТАВЬТЕ МНЕ СООБЩЕНИЕ</h3>
         <form action="">
-            <input type="text" name="name" value="" placeholder="Имя">
-            <input type="mail" name="mail" value="" placeholder="Email">
-            <textarea placeholder="Сообщение" cols="30" rows="10"></textarea>
-            <input type="submit" value="отправить">
+            <div class="messages">
+                <input type="text" name="name" value="" placeholder="Имя">
+                <input type="mail" name="mail" value="" placeholder="Email"><br>
+                <textarea placeholder="Сообщение" cols="30" rows="10"></textarea><br>
+            </div>
+            <input class="send_p8" type="submit" value="отправить">
             <div class="SNS">
                 <img src="img/fb.png" alt="#">
                 <img src="img/tv.gif" alt="#">
